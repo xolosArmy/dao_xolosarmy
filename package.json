@@ -1,0 +1,21 @@
+{
+  "name": "dao_xolosarmy",
+  "version": "1.0.0",
+  "description": "This repository contains the implementation of a community DAO for voting using the eCash blockchain. The voting token is the Xolo eToken `$RMZ`.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "chronik-client": "^3.2.0",
+    "chronik-client-cashtokens": "^3.1.1-rc0",
+    "ecash-lib": "^3.2.0",
+    "ecash-wallet": "^0.0.0-rc",
+    "ecashjs-lib": "^1.0.3",
+    "electrum-cash": "^3.2.0"
+  }
+}
